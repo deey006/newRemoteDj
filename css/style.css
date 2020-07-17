@@ -12,6 +12,11 @@
     background-color:transparent;
    
  }
+ p#response{
+     font-size: 2rem;
+     color: #D40072;
+     padding: 1rem;
+ }
  .brand{
 font-family: 'Grenze Gotisch', cursive;
 font-size: 34px;
