@@ -1,0 +1,333 @@
+ body{
+     background: white;
+     color: black;
+     font-family: Poppins;
+     }
+ /*Navigation*/
+ .top{
+    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:transparent;
+   
+ }
+ .brand{
+font-family: 'Grenze Gotisch', cursive;
+font-size: 34px;
+ }
+ .brand span{
+     color: #D40072;;
+ }
+ #link{
+   width: 100%;
+ }
+ #link a{
+       margin-top: 15px;
+ }
+ .links a{
+    color: #000000;
+     font-family: Poppins;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 18px;
+     line-height: 18px;
+ 
+ }
+  #button {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    background: #00BCD4;
+    border-radius: 24px;
+    padding-top: 0.2rem; 
+    padding-bottom: 0.2rem;    
+    padding-right: 2rem;    
+    padding-left: 2rem;    
+    border: none;
+   }
+   #button:hover{
+       background: rgb(251, 173, 109);
+   }
+ i.toggle{
+     color:#00BCD4;
+ }
+ div.links a{
+     display: block;
+     margin-bottom: 1.5rem;
+ }
+ .top div.links{
+     margin-top: 2rem;
+     font-size: 0.8rem;
+     width: 100%;
+ }
+ .hide{
+    display: none;
+ }
+ 
+ @media only screen and (min-width: 992px) {
+     i.toggle{
+         display: none;
+     }
+     .top{
+         flex-direction: row;
+         padding: 0.3rem 3rem;
+     }
+     .top div.links{
+         display: flex;
+         margin-bottom: 0;
+         margin-left: auto;
+         width: 35%;
+         font-size: 0.8rem;
+         justify-content: space-between;
+         overflow: hidden;
+     }
+ }
+.first-p{
+max-width: 375px;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 146.4%;
+color: #3B4451;
+}
+.btn-first{
+background: #00BCD4;
+border-radius: 24px;
+font-style: normal;
+font-weight: 600;
+font-size: 29px;
+line-height: 100%;
+letter-spacing: -0.03em;
+color: #FFFFFF;
+border: 0;
+padding: 1rem 2rem 1rem 2rem;
+}
+.welcome{
+    background:url(../assets/Ellipse\ 78.jpg);
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    object-fit:contain;
+    background-position:center;
+    padding-right: 0;
+    margin-right: 0;
+}
+.footer{
+    background: #00BCD4;
+    display: flex;
+    justify-content: space-between;
+    font-family: Poppins;
+    padding-left: 3.8rem;
+    padding-right: 4.5rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 180%;
+letter-spacing: 0.01em;
+color: #FFFFFF;
+}
+.footer input{
+    color: white;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+border-radius: 15px 0px 0px 15px;
+}
+.input-group{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: -0.03em;
+color: #E1E1E1;
+}
+#mail{
+    border-radius: 15px 0px 0px 15px;
+}
+#btn{
+    background: #00BCD4;
+    border-radius: 0px 15px 15px 0px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+    color: white;
+    border: 1px solid white;  
+}
+.input-group button{
+    background: #FFFFFF;
+border-radius: 0px 15px 15px 0px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: -0.03em;
+color: #00BCD4;
+border: 1px solid white;
+}
+.insta{
+    background-color: #00BCD4;
+    display: inline;
+    border-radius: 50%;
+    padding: 0.3rem;
+}
+.twitter{
+    background-color: #00BCD4;
+    display: inline;
+    border-radius: 50%;
+    padding: 0.3rem; 
+}
+.fb{
+    background-color: #00BCD4;
+    display: inline;
+    border-radius: 50%;
+    padding: 0.3rem;
+}
+
+
+   
+    .copyright{
+        font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 180%;
+letter-spacing: 0.01em;
+color: #212353;
+    }
+    .rating-text{
+        width: 290px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 145.9%;
+color: #3B4451;
+    }
+.party-left{
+    background-repeat: no-repeat;
+    object-fit:cover;
+    background-size: 100% 100%;
+    display: flex;
+align-items: center;
+}
+.first-lap{
+    position: absolute;
+    top: 6rem;
+    left: 9rem;
+    width: 80%;
+}
+.party-text{
+    padding-top: 10rem;
+}
+.party-text p{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 26px;
+line-height: 156.4%;
+color: #030303;
+
+}
+.party-text h3{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 105.9%;
+letter-spacing: -0.045em;
+
+color: #3B4451;
+
+}
+.unlimited{
+    max-width: 466px;
+}
+.unlimit p{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 26px;
+line-height: 126.4%;
+color: #030303;
+}
+.unlimited h2{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 105.9%;
+letter-spacing: -0.045em;
+color: #3B4451;
+}
+.limited{
+    margin-bottom: 6rem;
+}
+.almost{
+    background: url(../assets/Vector\ 3.svg);
+    background-repeat: no-repeat;
+    max-width: 1438px;
+height: 1499px;
+}
+.down{
+    margin-top: 25rem;
+}
+.last-lap{
+    position: absolute;
+}
+.sv{
+    margin-left: 22rem;
+}
+.text-p{
+    max-width: 446px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 142.4%;
+color: #3B4451;
+text-align: center;
+}
+.text-h{
+    font-weight: 500;
+font-size: 44px;
+line-height: 105.9%;
+letter-spacing: -0.045em;
+color: #3B4451;
+}
+@media screen and (max-width: 702px) {
+       .first-lap{
+          left: 2rem; 
+       } 
+
+       .party-text{
+           margin-top: 7rem;
+       }
+       .limited{
+        margin-bottom: 0rem;
+    }
+    .down{
+        margin-top: 10rem;
+    }
+    .almost{
+        height: 1299px;
+
+    }
+    .d-text{
+        max-width: 70%;
+    }
+    .sv{
+        margin-left: 16rem;
+    }
+    
+}
